@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+    font-family:bungee ;
+    src: url(fontes/Bungee/Bungee-Regular.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(fontes/Roboto/Roboto-Regular.ttf);
+}
+body{
+    font-family: roboto;
+}
+header{
+    height: 55px;
+    background-color: #182c61;
+    padding: 16px 0;
+    color:#ecf0f1;
+    align-items: center;
+}
+header h1,section h2{
+    font-weight: normal;
+}
+header .container{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: 0% auto;
+
+}
+header .container ul li{
+    display: inline;
+    margin-left: 45px;
+    font-size: 24px;
+    
+}
+header .container ul li a{
+    text-decoration: none;
+    color:#ecf0f1;
+}
+.container h1{
+
+    color: aliceblue;
+    
+}
+section .container img{
+    width: 400px;
+    height: 400px;
+    margin-right: 32px;
+}
+
+section .container{
+    display: flex;
+   
+    justify-content: space-around;
+   
+    align-items: flex-start;
+}
+.container div{
+    max-width: 600px;
+}
+
+.branch-list{
+    margin-top: 8px;
+}
+
+.branch-list li img{
+    max-height: 24px;
+    max-width: 45px;
+}
+.branch-list li{
+    display: inline;
+    padding: 16px;
+    margin-top: 8px;
+}
+section{
+    padding: 24px 0;
+
+}
+section h2,h3{
+    margin-bottom: 8px;
+    color: #182c61;
+}
+
+section h2,h3,button{
+    font-family: bungee;
+
+}
+section p{
+    margin-bottom: 8px;
+}
+header{
+    font-family: bungee;
+}
+form input,form textarea,form button{
+    width: 320px;
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea{
+    resize: none;
+}
+ul li a img{
+    height: 24px;
+    width: 24px;
+}
+.nos-acompanhe ul li {
+    display: inline;
+    margin-left:18px;
+}
+form button{
+    color: white;
+    background-color: #182c61;
+}
+form button:hover{
+    background-color: #3b59ac;
+}
